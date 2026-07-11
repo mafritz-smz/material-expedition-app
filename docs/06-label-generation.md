@@ -1,5 +1,9 @@
 # Label Generation
 
+<p align="center">
+  <img src="../images/generated-label.png" alt="Generated Shipment Label" width="700">
+</p>
+
 ## Overview
 
 The application automatically generates shipment labels when a Production Order reaches its required quantity.
