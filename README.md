@@ -75,6 +75,32 @@ The documentation is intended to provide both a functional and technical underst
 
 ---
 
+## Project Architecture
+
+```text
+BASE MATERIAIS
+        │
+        │ Lookup
+        ▼
+LANÇAMENTOS
+        ▲
+        │
+        │ Reference
+        ▼
+BASE PCP
+        │
+        ▼
+Automation Bot
+        │
+        ▼
+PDF Generation
+        │
+        ▼
+Shipment Labels
+```
+
+---
+
 ## Documentation
 
 This repository documents every part of the application, including:
@@ -86,3 +112,39 @@ This repository documents every part of the application, including:
 - Automations
 - PDF generation
 - Label template
+
+---
+
+## Technologies
+
+- AppSheet
+- Google Sheets
+- AppSheet Automation
+- Google Docs Template
+- BWIP-JS Barcode API
+- Markdown
+- Git
+- GitHub
+
+---
+
+## Features
+
+- Barcode-based expedition workflow.
+- Automatic material validation.
+- Production Order tracking.
+- Machine and lot verification.
+- Duplicate scan prevention.
+- Automatic quantity control.
+- Dynamic total weight calculation.
+- Automatic PDF label generation.
+- Unique barcode generation.
+- Complete expedition traceability.
+
+---
+
+## Author
+
+Developed by **Mateus Schmitz**.
+
+This repository documents the architecture, business rules and implementation of a barcode-driven material expedition application built with AppSheet.
