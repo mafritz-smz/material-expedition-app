@@ -8,7 +8,10 @@ The workflow prioritizes speed, minimizes manual interaction and reduces the pos
 
 Each screen has a specific responsibility within the expedition process.
 
----
+
+<p align="center">
+  <img src="../images/dashboard.png" alt="Application Dashboard" width="900">
+</p>
 
 # Production Orders
 
