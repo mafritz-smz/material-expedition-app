@@ -35,6 +35,10 @@ The expedition workflow begins by selecting one of these orders.
 
 # Production Order Details
 
+<p align="center">
+  <img src="../images/production-order.png" alt="Production Order Details" width="900">
+</p>
+
 After selecting a Production Order, the operator is presented with all information required for the expedition.
 
 Typical information displayed includes:
@@ -61,6 +65,10 @@ Manual data entry is intentionally minimized.
 ---
 
 # Scan History
+
+<p align="center">
+  <img src="../images/scan-history.png" alt="Scan History" width="900">
+</p>
 
 Every successful scan becomes part of the expedition history.
 
