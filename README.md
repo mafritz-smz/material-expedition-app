@@ -58,6 +58,23 @@ When the required quantity is completed, the labels are generated without any ma
 
 ---
 
+## Repository Guide
+
+The project documentation is organized into dedicated sections.
+
+| Section | Description |
+|----------|-------------|
+| `docs/` | System architecture, workflow and business rules. |
+| `tables/` | Database structure and table documentation. |
+| `formulas/` | AppSheet expressions and validation logic. |
+| `bots/` | Automation workflows. |
+| `templates/` | PDF template documentation. |
+| `images/` | Screenshots and reference images used throughout the documentation. |
+
+The documentation is intended to provide both a functional and technical understanding of the application.
+
+---
+
 ## Documentation
 
 This repository documents every part of the application, including:
