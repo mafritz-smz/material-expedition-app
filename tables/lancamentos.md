@@ -1,5 +1,9 @@
 # LANÇAMENTOS
 
+<p align="center">
+  <img src="../images/database-scans.png" alt="LANÇAMENTOS Structure" width="900">
+</p>
+
 ## Overview
 
 The `LANÇAMENTOS` table records every successful barcode scan performed during the expedition process.
