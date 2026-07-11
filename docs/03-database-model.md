@@ -31,7 +31,13 @@ LANÇAMENTOS         │
 BASE MATERIAIS
 ```
 
----
+<p align="center">
+  <img src="../images/database-pcp.png" alt="Production Orders Database" width="900">
+</p>
+
+<p align="center">
+  <img src="../images/database-materials.png" alt="Materials Database" width="900">
+</p>
 
 # BASE PCP
 
