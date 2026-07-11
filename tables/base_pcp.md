@@ -1,5 +1,9 @@
 # BASE PCP
 
+<p align="center">
+  <img src="../images/database-pcp.png" alt="BASE PCP Structure" width="900">
+</p>
+
 ## Overview
 
 The `BASE PCP` table is the starting point of the expedition process.
