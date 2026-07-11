@@ -1,47 +1,61 @@
 # Generate PDF
 
-## Purpose
+## Overview
 
-Automatically generates the shipment labels when a Production Order reaches the required quantity.
+This Bot automatically generates shipment labels when a Production Order reaches its required quantity.
+
+The automation eliminates manual document creation and ensures that every completed expedition receives its corresponding PDF label.
 
 ---
 
 ## Trigger
 
-To be documented.
+The Bot is triggered whenever the number of scanned pieces becomes equal to the required quantity defined in the selected Production Order.
 
----
+## Trigger Expression
 
-## Event
-
-To be documented.
-
----
-
-## Condition
-
-To be documented.
+```appsheet
+COUNT(
+  SELECT(
+    LANÇAMENTOS[ID],
+    [OB_ID] = [_THISROW].[OB_ID]
+  )
+)
+=
+[_THISROW].[OB_ID].[PEÇAS]
+```
 
 ---
 
 ## Process
 
-To be documented.
+After the trigger condition is satisfied, the Bot locates the corresponding Production Order using:
 
----
+```appsheet
+FILTER(
+  "BASE PCP",
+  [OB] = [_THISROW].[OB_ID]
+)
+```
 
-## Tasks
-
-To be documented.
+The selected record becomes the source for the PDF generation process.
 
 ---
 
 ## Output
 
-To be documented.
+The generated document contains one shipment label for each scanned piece associated with the completed Production Order.
 
 ---
 
-## Notes
+## Dependencies
 
-This document will be updated with the actual AppSheet Bot configuration.
+- BASE PCP
+- LANÇAMENTOS
+- PDF Template
+
+---
+
+## Business Value
+
+Automating PDF generation removes manual intervention, guarantees document consistency and improves expedition traceability.
