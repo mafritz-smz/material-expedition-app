@@ -1,5 +1,9 @@
 # BASE MATERIAIS
 
+<p align="center">
+  <img src="../images/database-materials.png" alt="BASE MATERIAIS Structure" width="900">
+</p>
+
 ## Overview
 
 The `BASE MATERIAIS` table is the application's master data source.
